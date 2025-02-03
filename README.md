@@ -16,6 +16,7 @@ Generate a custom Spotify playlist based on your existing playlists using the **
 git clone https://github.com/your-username/SpotifyPlaylistGenerator.git
 cd SpotifyPlaylistGenerator
 ```
+
 ---
 
 ## 2. Create a Virtual Environment
@@ -24,8 +25,26 @@ python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
+
 ---
+
 ## 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+## 4. Set Up Spotify API Credentials
+You must create a Spotify Developer Account and get your Client ID and Client Secret
+1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications)
+2. Click Create an App and fill in the details.
+3. Get your Client ID and Client Secret.
+4. Set the Redirect URI to:
+```bash
+http://127.0.0.1:5000/api_callback
+```
+
+---
+
+5. Create a .env File
