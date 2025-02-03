@@ -4,7 +4,6 @@ from datetime import datetime
 import random
 import requests
 import pandas as pd
-import kagglehub
 import re
 from dotenv import load_dotenv
 import os
@@ -24,14 +23,6 @@ API_BASE = 'https://accounts.spotify.com'
 REDIRECT_URI = os.getenv("REDIRECT_URI")
 SCOPE = 'user-library-read playlist-modify-public playlist-modify-private user-top-read user-read-private user-read-email'
 SHOW_DIALOG = True
-
-# Load the Spotify Million Song Dataset
-path = kagglehub.dataset_download("notshrirang/spotify-million-song-dataset")
-df = pd.read_csv(path + "/spotify_millsongdata.csv")
-
-# Preprocess the dataset
-df['text'] = df['text'].fillna('')
-df['combined'] = df['artist'] + ' ' + df['song'] + ' ' + df['text']
 
 @app.route('/')
 def verify():

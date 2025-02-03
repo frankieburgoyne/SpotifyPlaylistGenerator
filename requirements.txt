@@ -1,5 +1,4 @@
 Flask
 spotipy
 pandas
-kagglehub
 python-dotenv
