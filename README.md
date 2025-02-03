@@ -51,4 +51,12 @@ http://127.0.0.1:5000/api_callback
 1. Rename .env.example to .env
 2. Replace ID, Secret, and Key with your information from Developer Account
 
+---
+
+# Usage
+1. Run the Flask app in terminal:
+```bash
+python application.py
+```
+
 
