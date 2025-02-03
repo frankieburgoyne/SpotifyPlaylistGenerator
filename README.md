@@ -51,12 +51,17 @@ http://127.0.0.1:5000/api_callback
 1. Rename .env.example to .env
 2. Replace ID, Secret, and Key with your information from Developer Account
 
+
 ---
+
 
 # Usage
 1. Run the Flask app in terminal:
 ```bash
 python application.py
 ```
-
+2. Open http://127.0.0.1:5000 in your browser
+3. Login with your Spotify account
+4. Enter the EXACT name of the playlist you want recommendations for
+5. A new recommended playlist will be generated in your Spotify account
 
