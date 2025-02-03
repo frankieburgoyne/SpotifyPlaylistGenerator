@@ -1,0 +1,25 @@
+# Ignore environment variables
+.env
+
+# Ignore system files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore dependency cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Ignore dataset downloads
+kagglehub/
