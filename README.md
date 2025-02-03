@@ -13,7 +13,7 @@ Generate a custom Spotify playlist based on your existing playlists using the **
 ## 1. Setup & Installation  
 ### Clone the repository  
 ```bash
-git clone https://github.com/your-username/SpotifyPlaylistGenerator.git
+git clone https://github.com/frankieburgoyne/SpotifyPlaylistGenerator.git
 cd SpotifyPlaylistGenerator
 ```
 
