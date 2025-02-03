@@ -21,5 +21,4 @@ pip-delete-this-directory.txt
 # Ignore Jupyter Notebook checkpoints (if using notebooks)
 .ipynb_checkpoints/
 
-# Ignore dataset downloads
-kagglehub/
+
