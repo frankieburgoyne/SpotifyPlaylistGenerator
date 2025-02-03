@@ -47,4 +47,8 @@ http://127.0.0.1:5000/api_callback
 
 ---
 
-5. Create a .env File
+## 5. Create a .env File
+1. Rename .env.example to .env
+2. Replace ID, Secret, and Key with your information from Developer Account
+
+
