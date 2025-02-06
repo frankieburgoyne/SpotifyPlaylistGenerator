@@ -1,5 +1,5 @@
 # 🎵 Spotify Recommended Playlist Generator  
-## (**Currently in-progress of deploying as a Heroku based site**)
+## (**Currently in-progress of deploying as a Heroku based site, NOT FINISHED YET**) 
 Generate a custom Spotify playlist based on your existing playlists using the **Spotify API**.
 
 ## Features
